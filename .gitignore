@@ -1,0 +1,5 @@
+node_modules/
+focus-evidence/
+fix-shots/
+fix-shots-selftest/
+.DS_Store

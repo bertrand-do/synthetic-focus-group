@@ -1,0 +1,28 @@
+{
+  "version": "round1-result-v1",
+  "date": "<YYYY-MM-DD>",
+  "evaluated": "<what was reviewed>",
+  "icp": "<given | assumed>: <one line, plus any sample bias>",
+  "method": "Five fresh, independent agents received the identical frozen input, different personas and rotated variant order. They did not see owner preference, source prestige, the lead's recommendation or other reviews. The lead checked each objection against the input. No real respondents, exposure, clicks or purchases.",
+  "inputSha256": "<sha256 of input.json>",
+  "recommendation": { "title": "<one line>", "reason": "<why, or 'there is no single winner'>" },
+  "recommendedCopy": [
+    { "audience": "<who this is for>", "headline": "<text>", "deck": "<text>", "status": "<reviewed as-is | post-review suggestion, not re-evaluated>" }
+  ],
+  "preferences": [
+    { "personaId": "P1", "label": "<persona label>", "ranking": "V3 > V1 > V2", "preferred": "<line and reason>" }
+  ],
+  "tally": [
+    { "objection": "<normalised objection>", "personas": ["P1", "P2", "P3"], "decision": "<change | risk | record>", "evidence": ["P1 objections 1,4", "P2 objection 2", "P3 objection 1"] }
+  ],
+  "changes": [
+    { "element": "<element>", "fix": "<fix>", "status": "<recommended | done | needs proof>" }
+  ],
+  "abandonment": [
+    { "personaId": "P1", "point": "<exact place they stop>" }
+  ],
+  "risk": "<what this sample cannot tell you>",
+  "interpretationChecks": [
+    "<P2 read X as Y despite the packet stating Z. Retained as <kind of objection>, not evidence that Y was promised.>"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": "round1-input-v1",
+  "purpose": "Evaluate <what> for willingness to <verb>; simulated critique, not actual market evidence.",
+  "instructions": "Judge these exact drafts and the full planned funnel. This is a prebuild concept review: do not reject solely because the draft is not yet shipped. Missing demonstration or terms may still affect trust. Do not assume unmentioned capabilities. Do not seek other reviewers or source research. All variants share the same product.",
+  "commonOffer": {
+    "frontEnd": "<price and what is included>",
+    "externalCosts": "<anything paid separately>",
+    "addOns": "<optional offers and prices>",
+    "qualification": "<what is proposed but not yet shipped; what is not yet defined>",
+    "comparison": "<honest comparison with the obvious alternative>"
+  },
+  "specificContents": {
+    "items": [
+      { "id": "C01", "name": "<item>", "detail": "<what the buyer actually gets>" }
+    ]
+  },
+  "variants": [
+    {
+      "id": "V1",
+      "headline": "<headline>",
+      "supportingLine": "<supporting line>",
+      "storyHeadings": ["<heading 1>", "<heading 2>"],
+      "alternateHeadline": "<alternate>"
+    }
+  ]
+}

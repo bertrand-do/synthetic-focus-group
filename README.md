@@ -2,7 +2,17 @@
 
 A Claude Code skill for running AI-simulated focus groups that find real bugs and real objections before your customers do.
 
-Five simulated customers, each run as its own agent, attack one success verb on the real thing: your sales page, your headlines, your offer, or your actual app, which they use in a headless browser with their own test accounts. Then you, the lead, check their claims against the backend, count the objections, fix what crosses the threshold, and send the same five back to check the fix.
+## It does two jobs
+
+**1. Review your landing page, copy, headlines or offer.** Five simulated customers read the real page and tell you what they don't understand, what they don't believe, what would stop them buying, and the exact line where they would leave.
+
+> *"run a focus group on my sales page"*
+
+**2. Test your app like real users.** Each of the five personas opens your app in a headless Chrome browser, signs up with its own test account, tries to do the main job, and screenshots every step. Claude then checks every bug they report against the real app, so you get a ranked list of confirmed problems, not guesses. Works on a local app (`localhost`) or a live one.
+
+> *"have five personas use my app at localhost:3000 before launch"*
+
+## How it works
 
 The method in five lines (after Step 0, where you and Claude define and confirm the ideal customer, from your description or from ICPs it proposes after reading your codebase or site):
 
